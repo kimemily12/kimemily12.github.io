@@ -1,1 +1,174 @@
-Hello World
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Emily Kim</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<table border="0" cellpadding="15" cellspacing="0" width="1000">
+
+		<div class="container">
+			<div>
+				<table cellspacing="0">
+					<tr>
+						<td width="75%">
+							<h1>Emily Kim</h1>
+							<p>
+								I am a PhD student at Carnegie Mellon University Robotics Institute, advised by Professor Jessica Hodgins. My research focus 
+                                spans broadly in the field of Computer Vision and Graphics, particularly in human motion tracking and vehicle detection. 
+                                I obtained my Bachelor of Science in Joint Computer Science-Math at Harvey Mudd College.
+							</p>
+							<p>
+                                My current research focuses on practical adversarial attaacks on vehicle detection from satellite images.  We use both the texture (2D) and 
+                                the mesh-based (3D) attack that attacks both the computer vision-based detection algorithms as well as the human perceptive system. In my 
+                                previous research, I have focused on RGB video-based human motion tracking for human action recognition (HAR) for everyday gestures and error
+                                diagnosis of the exercise repetitions performed during physical therapy.
+							</p>
+							<p>
+								<a href="mailto:kimemily12@gmail.com">Email</a> [kimemily12 at gmail dot com] <b>&#183;</b> <a href="./CV.pdf">CV</a> [updated Nov 2023] 
+						</td>
+						<td width="5%">
+						</td>
+						<td width="20%">
+							<img style="max-height: 300px; max-width: 400px;" src="./portrait.jpg" border="0">
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+		<!-- <div class="container">
+			<h2>News</h2>
+			<!-- <ul style="list-style-type:dot"> -->
+			<!-- <ul>
+				<li> (Jun 2023) <s>I am looking for full-time research scientist positions</s>. I will join Nvidia as a full-time research scientist.</li>
+				<li> (Nov 2022) Our work "Dressing Avatars" is featured in the <a href="https://www.youtube.com/watch?v=D6EznsTblj8&t=240s">SIGGRAPH Asia 2022 trailer</a>!
+				<li> (Oct 2021) I am honored to be selected as an outstanding reviwer for CVPR 2021 and ICCV 2021.
+				<li> (Apr 2021) I am starting as a visiting researcher at Facebook Reality Labs Research, Pittsburgh for one year.
+				<li> (Nov 2020) Our paper on monocular clothing capture received the <b>Best Paper Honorable Mention</b> award at 3DV 2020.
+				<li> (Jun 2019) Our paper on monocular total capture has been accepted to CVPR 2019 with oral presentation.
+				<li> (Dec 2018) Our paper on monocular total capture is released! Check out our <a href="https://www.youtube.com/watch?v=rZn15BRf77E">video</a> and <a href="https://arxiv.org/abs/1812.01598">paper</a>.</li>
+			</ul>
+		</div> -->
+
+		<div class="container">
+			<div>
+				<div>
+					<h2>Publications</h2>
+					<table cellspacing="15">
+                        <tr>
+							<!-- <td width="30%">
+							<img style="max-height: 300px; max-width: 300px;" src="" border="0">
+							</td> -->
+
+							<td>
+							<p><b> Exploring the Impact of Rendering Method and Motion Quality on Model Performance when Using a Multi-view Synthetic Data for Action Recognition </b>
+							<br>
+							Stanislav Panev, <b>Emily Kim</b>, Sai Abhishek Si Namburu, Desislava Nikolova, Celso de Melo, Fernando De la Torre, Jessica Hodgins
+							<br>
+							<i>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2024)</i>
+							<br>
+								<!-- <a href="https://arxiv.org/abs/2206.15470">[arXiv]</a> -->
+							</td>
+						</tr>
+
+
+						<tr>
+							<!-- <td width="30%">
+								<img style="max-height: 300px; max-width: 300px;" src="" border="0">
+							</td> -->
+							<td>
+								<p><b>Sensor-Based Evaluation of Physical Therapy Exercises</b>
+								<br>
+								Andrew Whitford, <b>Emily Kim</b>, Eni Halilaj, Keelan Enseki, Adam Popchak, Jessica Hodgins
+								<br>
+								<i>International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC 2021)</i>
+								<br>
+									<a href="https://pubmed.ncbi.nlm.nih.gov/34892839/">[paper]</a>
+								</td>
+						</tr>
+
+					</table>
+				</div>
+			</div>
+		</div>
+
+        <div class="container">
+			<div>
+				<div>
+					<h2>Other Projects</h2>
+					<table cellspacing="15">
+                        <tr>
+							<!-- <td width="30%">
+							<img style="max-height: 300px; max-width: 300px;" src="" border="0">
+							</td> -->
+
+							<td>
+							<p><b> Learning to Attack Vehicle Detection Models Trained on Satellite Images using Both the 2D Texture and 3D Mesh Deformation in the Synthetic Domain  </b>
+                                <br>
+                            We use a differentiable renderer to generate images and adversarially attack the vehicle detection models from satellite images in the synthetic domain.
+                            We use both texture (2D) and mesh-based (3D) to make it easy to implement the resulting vehicles in the real world scenario. Our goal is to attack both the 
+                            computer vision-based models such as RetinaNet, FasterRCNN, and YOLO as well as the human perceptive system in a practical manner, thereby constraining 
+                            the attack, i.e. limiting the colors of the adversarial texture to those extracted from the real-world background images, pixelating the texture, and 
+                            limiting the amount of displacement of the mesh vertices during the mesh attack.
+							<!-- <br> -->
+								<!-- <a href="https://arxiv.org/abs/2206.15470">[arXiv]</a> -->
+							</td>
+						</tr>
+
+<!-- 
+						<tr>
+							<td width="30%">
+								<img style="max-height: 300px; max-width: 300px;" src="www-sa23-drivable-clothing/static/images/representative.jpeg" border="0">
+							</td>
+							<td>
+								<p><b>Sensor-Based Evaluation of Physical Therapy Exercises</b>
+								<br>
+								Andrew Whitford, <b>Emily Kim</b>, Eni Halilaj, Keelan Enseki, Adam Popchak, Jessica Hodgins
+								<br>
+								<i>International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC 2021)</i>
+								<br>
+									<a href="https://pubmed.ncbi.nlm.nih.gov/34892839/">[paper]</a>
+								</td>
+						</tr> -->
+
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h2>Experiences</h2>
+			<!-- <ul style="list-style-type:dot"> -->
+			<ul>
+				<li>
+					2019.9 - Now: Carnegie Mellon University Robotics Institute PhD
+				</li>
+				<li>
+					2018.5 - 2018.8: Juniper Networks, Inc. - Project Management Intern
+				</li>
+                <li>
+					2015.8 - 2019.5: Harvey Mudd College, BS in Computer Science-Math
+				</li>
+			</ul>
+		</div>
+
+		<!-- <div class="container">
+			<h2>MISC</h2> -->
+			<!-- <ul style="list-style-type:dot"> -->
+			<!-- <ul>
+				<li>
+					I am a violinist for ~20 years and have played in 4 different symphony orchestras. I have also publicly performed chamber music including String Quartet No.12 ("America") by A. Dvořák and String Octet by F. Mendelssohn.
+				</li>
+				<li>
+					In my spare time, I do powerlifting, climbing, play badminton and tennis.
+				</li>
+			</ul>
+		</div> -->
+	</table>
+</body>
+</html>
