@@ -1,1 +1,1 @@
-Website accessible here: https://kimemily12.github.io/website/
+Website accessible here: https://kimemily12.github.io/
