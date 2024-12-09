@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: #/publication/2015-10-01-paper-title-number-3
 excerpt: #'This paper is about the number 3. The number 4 is left for future work.'
-date: Janurary 2024
+date: Janurary 04, 2024
 venue: 'IEEE/CVF Winter Conference on Applications of Computer Vision (WACV 2024)'
 slidesurl: #'http://academicpages.github.io/files/slides3.pdf'
 paperurl: 'https://openaccess.thecvf.com/content/WACV2024/papers/Panev_Exploring_the_Impact_of_Rendering_Method_and_Motion_Quality_on_WACV_2024_paper.pdf;
