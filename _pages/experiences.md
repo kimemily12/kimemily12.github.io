@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Experiences
+Work, Education, Research experiences
 ======
 * 2022.5 - 2022.9: Lumiere Education Research Mentor
 * 2019.9 - Now: Carnegie Mellon University Robotics Institute PhD
